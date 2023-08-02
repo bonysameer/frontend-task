@@ -1,0 +1,756 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.input-type, .hamburger {
+  display: none;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #707070;
+  width: 164px;
+  height: 48px;
+  opacity: 1;
+  margin-top: 33px;
+}
+
+.navbar-brand {
+  font-size: 1.3em;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-div {
+  margin-top: 30px;
+}
+
+h1 {
+  height: 108px;
+  width: 548px;
+}
+
+.content-description {
+  height: 120px;
+  width: 520px;
+}
+
+.btn-price {
+  height: 65px;
+  width: 247px;
+  color: #ffffff;
+  background-color: #1492E6;
+  border: 1px solid #1492E6;
+  padding: 30px;
+  margin-top: 25px;
+}
+
+.markgrop-logo {
+  border-radius: 0 0 430px;
+  height: 518px;
+  width: 509px;
+}
+
+.img-clr {
+  background-color: #fff;
+  bottom: 20px;
+}
+
+.main-content {
+  background-color: #f8fAFC;
+  text-align: center;
+  margin-top: 60px;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa-solid {
+  position: relative;
+  top: 90px;
+  left: 1245px;
+  color: #FFFFFF;
+}
+
+.card {
+  margin-top: 65px;
+  height: 320px;
+  width: 308px;
+  border-radius: 18px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  font-size: 18px;
+}
+
+.waves {
+  position: absolute;
+  bottom: -150px;
+}
+
+.second-wave {
+  position: relative;
+  bottom: 110px;
+  width: 100vw;
+  transform: rotate(180deg);
+}
+
+.second-content {
+  margin-top: 110px;
+}
+
+h4 {
+  text-align: center;
+  position: relative;
+}
+
+.second-container {
+  position: relative;
+  bottom: 400px;
+}
+
+.artwork20, .artwork22, .artwork23 {
+  width: 244px;
+  height: 182px;
+}
+
+.row {
+  position: relative;
+  top: -10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-family: Nunito Sans, Bold;
+  font-weight: bold;
+}
+
+.card-text {
+  font-family: Nunito Sans, Regular;
+}
+
+h3 {
+  text-align: center;
+}
+
+.hand-logo, .accuracy-logo, .hiring-logo, .moneyback-logo {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 40px;
+}
+
+.row-image {
+  position: relative;
+  top: 150px;
+}
+
+.main-disc {
+  position: relative;
+  bottom: 80px;
+}
+
+.disc {
+  position: relative;
+  top: 25px;
+  font-family: Nunito Sans, 24px/32px Bold;
+  font-size: 24px;
+}
+
+.info1 {
+  width: 644px;
+  height: 56px;
+  position: relative;
+  right: 100px;
+  top: 40px;
+}
+
+.hand-logo-btn {
+  width: 227px;
+  height: 50px;
+  margin-top: 50px;
+  position: relative;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  font-family: Nunito Sans, SemiBold;
+}
+
+.second-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info2 {
+  position: absolute;
+  margin-top: 90px;
+}
+
+.acc-logo-pos, .pos-disc {
+  position: relative;
+  right: 100px;
+}
+
+.info2-btn {
+  width: 227px;
+  height: 50px;
+  position: absolute;
+  margin-top: 170px;
+  margin-right: 240px;
+}
+
+.third-div {
+  position: relative;
+  top: 160px;
+}
+
+#desc3 {
+  position: relative;
+  top: 20px;
+  font-size: 24px;
+}
+
+.info3 {
+  position: absolute;
+  margin-top: 40px;
+}
+
+.btn-info-3 {
+  bottom: 20px;
+}
+
+.info3-btn {
+  width: 227px;
+  height: 50px;
+  position: relative;
+  top: 80px;
+  right: 110px;
+}
+
+.fourth-div {
+  position: relative;
+  top: 250px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.money-logo {
+  position: relative;
+  right: 100px;
+}
+
+#desc4 {
+  position: relative;
+  right: 100px;
+  font-size: 24px;
+}
+
+.info4 {
+  position: absolute;
+  margin-right: 100px;
+  margin-top: 90px;
+}
+
+.info4-btn {
+  width: 227px;
+  height: 50px;
+  position: absolute;
+  margin-right: 240px;
+  margin-top: 160px;
+}
+
+.last-content {
+  margin-top: 550px;
+}
+
+.last-content-heading {
+  font-size: 35px;
+  font-family: Nunito Sans, Bold;
+  font-weight: bold;
+  text-align: center;
+  opacity: 1;
+}
+
+.last-content-sub-div {
+  margin-top: 40px;
+  height: 363px;
+  width: 1097px;
+  border: 3px solid #f8fAFC;
+  border-radius: 42px;
+  background-color: #F8FAFC;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+}
+
+.star-logo {
+  width: 64px;
+  height: 63px;
+  margin: 60px;
+}
+
+.table-info {
+  font-size: 25px;
+  font-family: normal normal 900 25px/34px Nunito Sans;
+  position: relative;
+  right: 40px;
+}
+
+.crousal-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-crousal-div {
+  height: 263px;
+  width: 258px;
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 30px;
+  position: relative;
+  bottom: 10px;
+  background-color: #FFFFFF;
+}
+
+.ceaser-logo {
+  margin: 30px;
+  width: 42px;
+  height: 43px;
+}
+
+.title-card {
+  font-size: 13px;
+  position: relative;
+  right: 20px;
+}
+
+.card-body {
+  margin-top: 20px;
+}
+
+.star {
+  position: relative;
+  left: 65px;
+  bottom: 30px;
+  font-size: 15px;
+}
+
+.ceo {
+  position: relative;
+  right: 110px;
+  bottom: 10px;
+  font-size: 13px;
+  color: #615C5C;
+}
+
+.manager {
+  font-size: 13px;
+  position: relative;
+  bottom: 35px;
+  right: 20px;
+}
+
+.card-text-content {
+  font-size: 13px;
+  font-family: Nunito Sans, Regular;
+  position: relative;
+  bottom: 15px;
+  right: 80px;
+  width: 220px;
+}
+
+.card-text-content2 {
+  font-size: 13px;
+  font-family: Nunito Sans, Regular;
+  position: relative;
+  top: 10px;
+  right: 80px;
+  width: 220px;
+}
+
+.customer-manager {
+  font-size: 11px;
+  position: relative;
+  bottom: 30px;
+  right: 20px;
+}
+
+.end-content {
+  position: relative;
+  top: 240px;
+}
+
+.end-title {
+  font-size: 35px;
+  font-family: Nunito Sans;
+  font-weight: bold;
+  text-align: center;
+}
+
+.end-content-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 140px;
+  justify-content: space-around;
+}
+
+.fire-logo {
+  width: 185px;
+  height: 90px;
+  opacity: 1;
+}
+
+.electro-logo {
+  width: 177px;
+  height: 90px;
+  opacity: 1;
+}
+
+.jot-logo {
+  width: 92px;
+  height: 92px;
+  opacity: 1;
+}
+
+.fire-title {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Nunito Sans;
+  font-weight: bold;
+}
+
+.footer-content {
+  text-align: center;
+  border: 1px solid #707070;
+  background-color: #000000;
+  height: 369px;
+  margin-top: 400px;
+  padding: 20px;
+}
+
+.footer-text {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 280px;
+}
+
+@media (max-width: 1336px) {
+  h4 {
+    position: relative;
+    top: 100px;
+  }
+}
+@media (max-width: 821px) {
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .content-div {
+    position: relative;
+    left: 35px;
+  }
+  .card {
+    position: relative;
+    right: 45px;
+    height: 40vh;
+    width: 25vw;
+  }
+}
+@media (max-width: 769px) {
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .navbar-menu {
+    position: relative;
+    right: 10px;
+  }
+  .horizontal {
+    margin-left: -220PX;
+  }
+  h2 {
+    position: relative;
+    right: 20px;
+  }
+  .card {
+    position: relative;
+    right: 20px;
+    display: flex;
+    width: 215px;
+    height: 50vw;
+  }
+  .second-container {
+    position: relative;
+    right: 20px;
+  }
+  .lorem {
+    margin-top: 20px;
+  }
+  .main-disc {
+    position: relative;
+    right: 20px;
+  }
+  .middle-section-container {
+    position: relative;
+    right: 20px;
+  }
+  .second-div, .third-div, .fourth-div {
+    position: relative;
+    right: 20px;
+  }
+  .last-content {
+    position: relative;
+    right: 20px;
+  }
+  .crousal-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -60px;
+  }
+  .end-content {
+    margin-top: 360px;
+  }
+  .end-title {
+    position: relative;
+    right: 20px;
+  }
+  .end-content-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 80px;
+    position: relative;
+    right: 20px;
+  }
+  footer {
+    margin-left: -220px;
+  }
+  .footer-text {
+    position: relative;
+    left: 60PX;
+  }
+}
+@media (max-width: 1058px) {
+  .content {
+    position: relative;
+    left: 40px;
+  }
+}
+@media (max-width: 976px) {
+  .content {
+    position: relative;
+    left: 80px;
+  }
+}
+@media (max-width: 895px) {
+  .content {
+    position: relative;
+    left: 110px;
+  }
+}
+@media (max-width: 565px) {
+  .content {
+    position: relative;
+    left: 210px;
+  }
+}
+@media (max-width: 355px) {
+  .content {
+    position: relative;
+    left: 290px;
+  }
+}
+@media (max-width: 913px) {
+  .card {
+    position: relative;
+    right: 45px;
+    width: 25vw;
+    height: 30vh;
+  }
+}
+@media (max-width: 1025px) {
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 413px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .content-div > h1 {
+    font-size: 12px;
+    margin-left: 200px;
+  }
+  .content-description {
+    font-size: 12px;
+    width: 90vw;
+    position: relative;
+    left: 190px;
+    bottom: 80px;
+    z-index: 1;
+  }
+  .img-clr {
+    position: relative;
+    right: 440px;
+    opacity: 0.3;
+  }
+  .btn-price-one {
+    position: relative;
+    left: 210px;
+    z-index: 1;
+    width: 160px;
+    height: 45px;
+    bottom: 50px;
+  }
+  .card {
+    position: relative;
+    left: 20px;
+    width: 80vw;
+  }
+  .lorem {
+    margin-top: 110px;
+  }
+  .lorem-div {
+    position: relative;
+    left: 30px;
+  }
+  .middle-section-container {
+    font-size: 12px;
+    position: relative;
+    left: 10px;
+  }
+  .info1-btn {
+    width: 160px;
+    height: 45px;
+    position: relative;
+    left: 200px;
+    bottom: 28px;
+  }
+  .accuracy-logo, .pos-disc {
+    position: relative;
+    right: 12px;
+  }
+  .info2 {
+    font-size: 12px;
+  }
+  .info2-btn {
+    width: 160px;
+    height: 45px;
+    margin-right: auto;
+  }
+  .hiring-logo {
+    position: relative;
+    left: 13px;
+  }
+  .info3 {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .info3-btn {
+    width: 160px;
+    height: 45px;
+    margin-left: 340px;
+  }
+  .money-logo {
+    position: relative;
+    left: 5px;
+  }
+  #desc4 {
+    position: relative;
+    left: 7px;
+    top: 20px;
+  }
+  .info4 {
+    font-size: 12px;
+  }
+  .info4-btn {
+    height: 45px;
+    width: 160px;
+    margin-right: 5px;
+  }
+  .card-div-crousal-description {
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+  }
+  .manager {
+    position: relative;
+    right: 110px;
+    bottom: 10px;
+  }
+  .card-text-content {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 376px) {
+  .content-description {
+    position: relative;
+    left: 220px;
+  }
+  .card {
+    height: 65vw;
+  }
+  .main-disc {
+    font-size: 18px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 80px;
+  }
+  .middle-section {
+    position: relative;
+    bottom: 130px;
+  }
+  .info1 {
+    font-size: 11px;
+    position: relative;
+    bottom: 40px;
+  }
+  .info1-btn {
+    height: 40px;
+    width: 140px;
+    font-size: 10px;
+  }
+  .second-div {
+    position: relative;
+    left: 10px;
+  }
+  .info2-btn, .info3-btn {
+    height: 40px;
+    width: 140px;
+    margin-right: 10px;
+  }
+  .info4 {
+    margin-right: 10px;
+  }
+  .footer-text {
+    font-size: 14px;
+    margin-left: 80px;
+  }
+}
+@media (max-width: 1025px) {
+  .second-div {
+    position: relative;
+  }
+}/*# sourceMappingURL=main.css.map */
